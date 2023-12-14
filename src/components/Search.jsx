@@ -60,7 +60,7 @@ function Search() {
       <Icon icon="iconamoon:search-bold" id="search-icon" />
       <input
         className="input"
-        placeholder="Type to search..."
+        placeholder="Cari Sekolah..."
         type="text"
         value={query}
         onClick={handleInputClick}

@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const First = () => {
+const HomePage = () => {
   const navigate = useNavigate();
   return (
     <>
@@ -10,4 +10,4 @@ const First = () => {
   );
 };
 
-export default First;
+export default HomePage;
