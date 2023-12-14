@@ -9,7 +9,7 @@ import MapSearch from "./MapSearch";
 import ZoomControlWithReset from "./MapZoom";
 import MouseCoordinates from "./MapCoordinate";
 import Search from "./Search";
-import Back from "./Back";
+import Back from "./MapBack";
 
 const GREECE_BOUNDS = [
   [-6.314658, 106.807498],
