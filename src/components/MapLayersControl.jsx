@@ -10,6 +10,13 @@ import {
 import sekolahData from "./../data/sekolah.json";
 import kelurahanData from "./../data/kelurahan_pancoranmas.json";
 import kecamatanData from "./../data/kecamatan_depok.json";
+import anaksungaiData from "./../data/Anak_Sungai.json";
+import tolData from "./../data/Jalan_Tol.json";
+import kotaKecamatanData from "./../data/Kota_kecamatan.json";
+import relData from "./../data/Rel_Kereta_Api.json";
+import indukSungaiData from "./../data/Sungai_Induk.json";
+import wadukData from "./../data/Waduk_Danau.json";
+
 import L from "leaflet";
 import "./../style/MyMap.css";
 import { Icon } from "@iconify/react";
@@ -109,7 +116,7 @@ export default function MapLayerControl() {
         />
       </LayersControl.Overlay>
 
-      <LayersControl.Overlay name="Kecamatan Pancoran Mas">
+      <LayersControl.Overlay checked name="Kecamatan Pancoran Mas">
         <GeoJSON
           data={kelurahanData.features}
           onEachFeature={(feature, layer) => {
@@ -124,7 +131,7 @@ export default function MapLayerControl() {
         />
       </LayersControl.Overlay>
 
-      <LayersControl.Overlay name="Sekolah Dasar">
+      <LayersControl.Overlay checked name="Sekolah Dasar">
         <LayerGroup>
           {sekolahData.features.map((school) => (
             <Marker
@@ -189,6 +196,96 @@ export default function MapLayerControl() {
             </Marker>
           ))}
         </LayerGroup>
+      </LayersControl.Overlay>
+
+      <LayersControl.Overlay name="Jalan Tol">
+        <GeoJSON
+          data={tolData.features}
+          onEachFeature={(feature, layer) => {
+            layer.bindPopup(`<strong>${feature.properties.id}</strong>`);
+            layer.setStyle({
+              color: "#F6D13D", // warna border
+              weight: 2, // ketebalan border
+              fill: "#FFF6CF", // warna fill
+              fillOpacity: 0.2, // transparansi fill
+            });
+          }}
+        />
+      </LayersControl.Overlay>
+
+      <LayersControl.Overlay name="Anak Sungai">
+        <GeoJSON
+          data={anaksungaiData.features}
+          onEachFeature={(feature, layer) => {
+            layer.bindPopup(`<strong>${feature.properties.lokasi}</strong>`);
+            layer.setStyle({
+              color: "#38B6FF", // warna border
+              weight: 2, // ketebalan border
+              fill: "#5CE1E6", // warna fill
+              fillOpacity: 0.2, // transparansi fill
+            });
+          }}
+        />
+      </LayersControl.Overlay>
+
+      <LayersControl.Overlay name="Induk Sungai">
+        <GeoJSON
+          data={indukSungaiData.features}
+          onEachFeature={(feature, layer) => {
+            layer.bindPopup(`<strong>${feature.properties.lokasi}</strong>`);
+            layer.setStyle({
+              color: "#004AAD", // warna border
+              weight: 2, // ketebalan border
+              fill: "#5271FF", // warna fill
+              fillOpacity: 0.2, // transparansi fill
+            });
+          }}
+        />
+      </LayersControl.Overlay>
+
+      <LayersControl.Overlay name="Kota Kecamatan">
+        <GeoJSON
+          data={kotaKecamatanData.features}
+          onEachFeature={(feature, layer) => {
+            layer.bindPopup(`<strong>${feature.properties.lokasi}</strong>`);
+            layer.setStyle({
+              color: "#8D1D1D", // warna border
+              weight: 2, // ketebalan border
+              fill: "#FFE4E4", // warna fill
+              fillOpacity: 0.2, // transparansi fill
+            });
+          }}
+        />
+      </LayersControl.Overlay>
+
+      <LayersControl.Overlay name="Rel Kereta Api">
+        <GeoJSON
+          data={relData.features}
+          onEachFeature={(feature, layer) => {
+            layer.bindPopup(`<strong>${feature.properties.lokasi}</strong>`);
+            layer.setStyle({
+              color: "#737373", // warna border
+              weight: 2, // ketebalan border
+              fill: "#D9D9D9", // warna fill
+              fillOpacity: 0.2, // transparansi fill
+            });
+          }}
+        />
+      </LayersControl.Overlay>
+
+      <LayersControl.Overlay name="Waduk atau Danau">
+        <GeoJSON
+          data={wadukData.features}
+          onEachFeature={(feature, layer) => {
+            layer.bindPopup(`<strong>${feature.properties.lokasi}</strong>`);
+            layer.setStyle({
+              color: "##1F6945", // warna border
+              weight: 2, // ketebalan border
+              fill: "#BCEFD6", // warna fill
+              fillOpacity: 0.2, // transparansi fill
+            });
+          }}
+        />
       </LayersControl.Overlay>
     </LayersControl>
   );
