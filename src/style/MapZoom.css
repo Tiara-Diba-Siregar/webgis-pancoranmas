@@ -1,0 +1,27 @@
+.leaflet-control-zoom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Letakkan di sebelah kiri */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.leaflet-control-zoom button {
+  background-color: #fff;
+  border: 1px solid #b8b6b6;
+  font-size: 16px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  width: 32px; /* Mengisi lebar penuh */
+  height: 32px; /* Set the height */
+}
+
+.leaflet-control-zoom button:hover {
+  background-color: #f4f4f4;
+}
+
+.leaflet-control-zoom button:active {
+  background-color: #e6e6e6;
+}
