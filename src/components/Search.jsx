@@ -224,7 +224,7 @@ function Search() {
               <img
                 key={No}
                 src={selectedSchool.properties[`img${No}`]}
-                alt={`Image ${No}`}
+                alt={`Img ${No}`}
                 style={{
                   width: "250px",
                   height: "150px",

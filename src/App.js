@@ -4,18 +4,12 @@ import Home from "./pages/Home";
 import Map from "./pages/Map";
 import NotFound from "./pages/NotFound";
 import School from "./pages/Schools";
-import NewHome from "./components/Home/Home";
-import "bootstrap/dist/css/bootstrap.min.css";
-
-import "./style.css";
-import "./App.css";
 
 const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<NewHome />} />
-        <Route path="/coba" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/map" element={<Map />} />
         <Route path="/schools" element={<School />} />
         <Route path="*" element={<NotFound />} />
