@@ -5,6 +5,7 @@ import Map from "./pages/Map";
 import NotFound from "./pages/NotFound";
 import School from "./pages/Schools";
 
+import "./App.css";
 const App = () => {
   return (
     <Router>
