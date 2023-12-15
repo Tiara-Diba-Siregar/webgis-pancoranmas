@@ -1,4 +1,4 @@
-import MyMap from "../components/MyMap";
+import MyMap from "./../components/MyMap";
 
 const Map = () => {
   return <MyMap />;

@@ -1,0 +1,34 @@
+/* YourComponent.css */
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}

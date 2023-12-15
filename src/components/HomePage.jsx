@@ -5,7 +5,11 @@ const HomePage = () => {
   return (
     <>
       <h3>HOMEPAGE ROUTE</h3>
-      <button onClick={() => navigate("/map")}>See Map</button>
+
+      <button onClick={() => navigate("/map")} style={{ margin: "10px" }}>
+        See Map
+      </button>
+      <button onClick={() => navigate("/schools")}>See schools</button>
     </>
   );
 };
