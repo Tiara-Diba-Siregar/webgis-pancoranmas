@@ -40,7 +40,7 @@ class MyMap extends Component {
           center={[-6.38976, 106.821498]}
           zoomControl={false}
         >
-          <MapLayerControl position="bottomright" />
+          <MapLayerControl position="topright" />
           <MiniMap position="bottomright" zoom={9} />
           <MapSearch position="bottomright" zoom={12} />
           <ScaleControl position="bottomleft" imperial={true} />

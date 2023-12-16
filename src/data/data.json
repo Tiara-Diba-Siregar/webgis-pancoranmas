@@ -1,10 +1,10 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "ELEMENTARY SCHOOLS",
+    "paragraph": "We offer comprehensive details about 20 elementary schools located in various neighborhoods in Pancoran Mas, Depok"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Welcome to SCHOOLINFO! Your trusted source for up-to-date information on elementary schools in Pancoran Mas, Depok. We are committed to providing comprehensive and valuable information for those seeking details about the locations and facilities of elementary schools in the Pancoran Mas sub-district, Depok.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -20,165 +20,161 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "SD Negeri Pancoran Mas 1",
+      "largeImage": "img/img/portfolio/01-large.jpg",
+      "smallImage": "img/img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Sekolah Tunas Bangsa Depok",
+      "largeImage": "img/img/portfolio/02-large.jpg",
+      "smallImage": "img/img/portfolio/02-small.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "largeImage": "img/img/portfolio/03-large.jpg",
+      "smallImage": "img/img/portfolio/03-small.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "largeImage": "img/img/portfolio/04-large.jpg",
+      "smallImage": "img/img/portfolio/04-small.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "largeImage": "img/img/portfolio/05-large.jpg",
+      "smallImage": "img/img/portfolio/05-small.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "largeImage": "img/img/portfolio/06-large.jpg",
+      "smallImage": "img/img/portfolio/06-small.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "largeImage": "img/img/portfolio/07-large.jpg",
+      "smallImage": "img/img/portfolio/07-small.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "largeImage": "img/img/portfolio/08-large.jpg",
+      "smallImage": "img/img/portfolio/08-small.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "largeImage": "img/img/portfolio/09-large.jpg",
+      "smallImage": "img/img/portfolio/09-small.jpg"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-institution",
+      "name": "Depok",
+      "text": "SD NEGERI DEPOK 1, SD NEGERI DEPOK 2, SD NEGERI DEPOK 4, SD NEGERI DEPOK 5, SD NEGERI DEPOK 6, SD NEGERI PANCORANMAS 1, SD HOLY FAITHFUL OBEDIENT, SD ISLAM AL FAUZIEN, SD IT AL HARAKI, SD IT AL QALAM, SD KRISTEN TUNAS BANGSA DEPOK, SD MARDI YUANA, SD NASIONAL PLUS TUNAS GLOBAL, SD PELITA, SD RABBANI DEPOK, SD SILOAM"
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-institution",
+      "name": "Depok Jaya",
+      "text": "SD NEGERI ANYELIR 1, SD NEGERI ANYELIR 2, SD NEGERI BEJI 1, SD NEGERI DEPOK BARU 1, SD NEGERI DEPOK BARU 2, SD NEGERI DEPOK BARU 3, SD NEGERI DEPOK BARU 8, SD NEGERI DEPOK JAYA 1, SD IT MUTIARA ISLAM, SDIT ALMUHAJIRIN, SD SANTA THERESIA"
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-institution",
+      "name": "Pancoran Mas",
+      "text": "SD NEGERI PANCORANMAS 3, SD NEGERI PITARA 1, SD NEGERI PITARA 2, SD KWITANG 8 PSKD, SDS EUREKA NATIONAL PLUS, SDS CAKRA BUANA"
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-institution",
+      "name": "Mampang",
+      "text": "SD NEGERI MAMPANG 1, SD NEGERI MAMPANG 2, SD NEGERI MAMPANG 3, SD Muhammadiyah 10"
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-institution",
+      "name": "Rangkapan Jaya",
+      "text": "SD CINTA ANAK, SD ISLAM DARUTTAQWA, SD IT AL HAMIDIYAH, SD PERJUANGAN TERPADU, SD PRESTASI GLOBAL, SD T CAHAYA HATI, SDIT ALMANSHURIYAH, SDIT Nuurul Jamaal"
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-institution",
+      "name": "Rangkapan Jaya Baru",
+      "text": "SD NEGERI PARUNG BINGUNG 1, SD NEGERI RANGKAPAN JAYA BARU, SD NEGERI RAWADENOK, SD MUHAMMADIYAH 2 DEPOK, SDS IT SAID YUSUF, SEKOLAH ALAM INDONESIA CABANG MERUYUNG, SD ISLAM AL - IHYA, SD Islam Dai An Nur, SDIT ARRAHMAH, SDIT TASMIRA"
     }
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/img/testimonials/01.jpg",
+      "text": "11200930000015",
+      "name": "Lhutfia Ichsan"
     },
     {
-      "img": "img/testimonials/02.jpg",
+      "img": "img/img/testimonials/02.jpg",
+      "text": "11200930000017",
+      "name": "Tiara Diba"
+    },
+    {
+      "img": "img/img/testimonials/03.jpg",
+      "text": "11200930000028",
+      "name": "Annisa Safa"
+    },
+    {
+      "img": "img/img/testimonials/04.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "Johnathan Doe"
     },
     {
-      "img": "img/testimonials/03.jpg",
+      "img": "img/img/testimonials/05.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "John Doe"
     },
     {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
+      "img": "img/img/testimonials/06.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "Johnathan Doe"
     }
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/img/team/fotoupi.jpg",
+      "name": "Lhutfia Ichsan",
+      "job": "11200930000015",
+      "linkedin": "https://www.linkedin.com/in/lhutfia-ichsan-a55582225/"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/img/team/fotodiba.jpg",
+      "name": "Tiara Diba",
+      "job": "11200930000017",
+      "linkedin": "https://www.linkedin.com/in/tiara-diba-895753229/"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/img/team/fotoica.jpg",
+      "name": "Annisa Safa",
+      "job": "11200930000028",
+      "linkedin": "https://www.linkedin.com/in/annisasafa"
     }
   ],
+
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-institution",
+      "title": "Elementary School Profile",
+      "text": "Complete information about the name and address of the school."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-book",
+      "title": "School Facilities",
+      "text": "Details of facilities such as classrooms, libraries, laboratories and sports fields."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-map-marker",
+      "title": "Location Map",
+      "text": "Map to make it easier to know the school locations."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-photo",
+      "title": "Visual Documentation",
+      "text": "Images to provide an overview of the school."
     }
   ]
 }

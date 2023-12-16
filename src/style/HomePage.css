@@ -2,56 +2,111 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap");
 
 /* HomePage.css */
-
-/* Style for the header */
-#header {
-  background: #fff; /* Background color for the header */
-  padding: 20px 0; /* Padding for the header */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle elevation effect */
+.wrapper {
+  background: linear-gradient(rgba(37, 37, 37, 0.8), rgba(66, 66, 66, 0.7)),
+    url("./../assets/intro-bg.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
 }
 
-.logo {
-  font-size: 24px; /* Font size for the logo */
+/* HeroPage.css */
+.hero-button-container {
+  margin-top: 20px; /* Adjust the margin as needed */
+  margin-bottom: 20px;
+  text-align: center; /* Center the buttons */
+}
+.hero-button {
+  padding: 7px 14px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 2px solid rgb(43, 80, 243);
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: transparent;
+  margin-right: 10px;
 }
 
-/* Style for the navbar */
-.navbar ul {
-  list-style: none; /* Remove list styles for the navbar */
-  margin: 0;
-  padding: 0;
+.hero-button:hover {
+  background: white;
+  color: rgb(43, 80, 243);
+}
+
+.hero-centered {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh; /* Equivalent to h-screen */
+  flex-direction: column; /* Stack items vertically */
 }
 
-.navbar li {
-  margin: 0 15px; /* Margin between navbar items */
-}
-
-.navbar a {
+/* Navbar.css */
+.brand {
   text-decoration: none;
-  color: #333; /* Text color for navbar items */
-  font-weight: 500; /* Font weight for navbar items */
-  transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
 }
-
-.navbar a:hover {
-  color: #007bff; /* Color on hover for navbar items */
-}
-
-/* Add any additional styles you may need for responsiveness or other specific requirements */
-/* Add to HomePage.css */
-.logo-container {
+.home-navbar,
+.home-navbar::after,
+.home-navbar::before {
+  margin: 0;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  background: white;
 }
 
-.logo-img {
-  width: 24px; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
-  margin-right: 10px; /* Adjust margin as needed */
+.nav-item {
+  list-style: none;
 }
 
-.logo h2 {
-  margin: 0;
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+  font-size: 18px;
+}
+
+.nav-toggler div {
+  width: 1.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: darkgray;
+}
+
+.nav-toggler {
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-toggler {
+    display: block;
+  }
+  .nav-menu {
+    position: fixed;
+    top: 7vh;
+    right: 0;
+    width: 50%;
+    height: 93vh;
+    background: white;
+    flex-direction: column;
+    transform: translateX(100%);
+  }
+}
+/* Navbar Actice Class*/
+.nav-active {
+  transform: translateX(0);
 }
