@@ -5,6 +5,7 @@ import Hero from "./HomeHero";
 import Navbar from "./Navbar";
 import Features from "./HomeFeatures";
 import About from "./HomeAbout";
+import Footer from "./HomeFooter";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
             <Hero />
             <Features />
             <About />
+            <Footer />
           </div>
         </>
       </section>

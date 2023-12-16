@@ -202,3 +202,48 @@
   max-width: 100%;
   padding: 0 50px;
 }
+
+/* Footer.css */
+.footer-container {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.footer-title {
+  margin-bottom: 20px;
+}
+
+.footer-contributors {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.footer-contributor {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.footer-contributor img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 0;
+}
+
+.footer-contributor h3 {
+  margin-bottom: 5px;
+}
+
+.footer-contributor p {
+  margin-top: 5px;
+}
+
+.footer-schoolinfo {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+
+  margin: 0;
+}
