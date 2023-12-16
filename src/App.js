@@ -6,6 +6,7 @@ import NotFound from "./pages/NotFound";
 import School from "./pages/Schools";
 
 import "./App.css";
+import Features from "./components/HomeFeatures";
 const App = () => {
   return (
     <Router>
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/map" element={<Map />} />
         <Route path="/schools" element={<School />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/features" element={<Features />} />
       </Routes>
     </Router>
   );

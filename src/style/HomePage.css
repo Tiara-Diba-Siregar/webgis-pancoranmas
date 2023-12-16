@@ -104,9 +104,71 @@
     background: white;
     flex-direction: column;
     transform: translateX(100%);
+    transition: 0.5s ease-in;
   }
 }
 /* Navbar Actice Class*/
 .nav-active {
   transform: translateX(0);
+}
+
+/* Features.css*/
+.features {
+  text-align: center;
+  margin-top: 30px; /* Adjust as needed */
+}
+
+.features-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features-title h2 {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.features-title h2::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  margin-left: -30px;
+  left: 50%;
+}
+
+.features-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.features-row-fill {
+  margin: 15px;
+  text-align: center;
+  flex: 0 0 calc(33.3333% - 30px); /* Adjust margin and width as needed */
+}
+
+.features-icon {
+  font-size: 5rem;
+  color: #5ca9fb;
+  margin-bottom: 10px;
+}
+
+.features-title {
+  margin: 0 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #333;
+}
+
+.features-text {
+  margin: 0 0;
+  font-size: 1em;
+  color: #555;
 }
