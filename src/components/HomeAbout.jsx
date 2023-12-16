@@ -1,5 +1,6 @@
 import React from "react";
 import "./../style/HomePage.css";
+import { Icon } from "@iconify/react";
 
 export const About = () => {
   return (
@@ -22,11 +23,51 @@ export const About = () => {
               <h3>Why Choose Us?</h3>
               <div className="about-list-style">
                 <div className="about-list-style-coloum">
-                  <ul>
-                    <li>school address information</li>
-                    <li>information on school facilities</li>
-                    <li>school photos</li>
-                    <li>list of schools in Pancoran Mas</li>
+                  <ul style={{ listStyle: "none", paddingLeft: "0" }}>
+                    <li>
+                      <Icon
+                        icon="bi:check"
+                        style={{
+                          color: "blue",
+                          marginRight: "10px",
+                          fontSize: "16",
+                        }}
+                      />
+                      School address information
+                    </li>
+                    <li>
+                      <Icon
+                        icon="bi:check"
+                        style={{
+                          color: "blue",
+                          marginRight: "10px",
+                          fontSize: "16",
+                        }}
+                      />
+                      Information on school facilities
+                    </li>
+                    <li>
+                      <Icon
+                        icon="bi:check"
+                        style={{
+                          color: "blue",
+                          marginRight: "10px",
+                          fontSize: "16",
+                        }}
+                      />
+                      School photos
+                    </li>
+                    <li>
+                      <Icon
+                        icon="bi:check"
+                        style={{
+                          color: "blue",
+                          marginRight: "10px",
+                          fontSize: "16",
+                        }}
+                      />
+                      List of schools in Pancoran Mas
+                    </li>
                   </ul>
                 </div>
               </div>
