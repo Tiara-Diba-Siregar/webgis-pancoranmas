@@ -7,6 +7,7 @@ import School from "./pages/Schools";
 
 import "./App.css";
 import Features from "./components/HomeFeatures";
+import About from "./components/HomeAbout";
 const App = () => {
   return (
     <Router>
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/schools" element={<School />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/features" element={<Features />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   );

@@ -4,7 +4,7 @@
 /* HomePage.css */
 .wrapper {
   background: linear-gradient(rgba(37, 37, 37, 0.8), rgba(66, 66, 66, 0.7)),
-    url("./../assets/intro-bg.jpg");
+    url("/public/img/img/intro-bg.jpg");
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -115,7 +115,8 @@
 /* Features.css*/
 .features {
   text-align: center;
-  margin-top: 30px; /* Adjust as needed */
+  margin-top: 20px; /* Adjust as needed */
+  height: 100vh;
 }
 
 .features-container {
@@ -168,7 +169,36 @@
 }
 
 .features-text {
-  margin: 0 0;
   font-size: 1em;
   color: #555;
+}
+
+/* HomeAbout.css */
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #e9e9fd;
+  height: 100vh;
+}
+
+.about-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.about-image {
+  flex: 1;
+  width: 50%; /* Menyesuaikan lebar maksimal */
+  height: 50%; /* Menyesuaikan tinggi secara proporsional */
+  margin-left: 70px;
+  margin-right: 0;
+}
+
+.about-information {
+  flex: 1;
+  max-width: 100%;
+  padding: 0 50px;
 }
