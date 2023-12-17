@@ -3,7 +3,7 @@
 .schools-table {
   width: 100%;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .schools-container {
@@ -127,4 +127,33 @@
 .schools-table-result th:nth-child(2),
 .schools-table-result th:nth-child(5) {
   text-align: center;
+}
+
+.paginationButton {
+  width: 93%;
+  height: 40%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.paginationButton a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 7px;
+  border: 1px solid #2b2eff;
+  color: #2b2eff;
+  cursor: pointer;
+}
+
+.paginationButton a:hover {
+  color: white;
+  background-color: #2b2eff;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #2b2eff;
 }
