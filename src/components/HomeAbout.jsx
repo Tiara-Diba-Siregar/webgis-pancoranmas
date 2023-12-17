@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 
 export const About = () => {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div className="about-container">
         <div className="about-row">
           <div className="about-image">

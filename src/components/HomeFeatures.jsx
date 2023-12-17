@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 
 const Features = () => {
   return (
-    <div className="features">
+    <div id="features" className="features">
       <div className="features-container">
         <div className="features-title">
           <h2>FEATURES</h2>

@@ -2,54 +2,63 @@ import React, { useState } from "react";
 import "./../style/HomePage.css";
 
 function Navbar() {
-  const [active, setActive] = useState("nav-menu");
+  const [isActive, setIsActive] = useState(false);
+
+  const handleScrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+      setIsActive(false); // Close the menu when clicking on a section
+    }
+  };
+
   const navToggle = () => {
-    active === "nav-menu"
-      ? setActive("nav-menu nav-active")
-      : setActive("nav_menu");
+    setIsActive(!isActive);
   };
 
   return (
     <nav>
       <div className="home-navbar">
-        <a
-          href="https://github.com/Tiara-Diba-Siregar/webgis-pancoranmas/"
+        <div
           className="brand"
+          onClick={() => {
+            handleScrollToSection("hero");
+          }}
         >
           SCHOOLINFO
-        </a>
-        <ul className={active}>
-          <li className="nav-item">
-            <a
-              href="https://github.com/Tiara-Diba-Siregar/webgis-pancoranmas/"
-              className="nav-link"
-            >
-              Home
-            </a>
+        </div>
+        <ul className={isActive ? "nav-menu active" : "nav-menu"}>
+          <li
+            className="nav-item"
+            onClick={() => {
+              handleScrollToSection("hero");
+            }}
+          >
+            Home
           </li>
-          <li className="nav-item">
-            <a
-              href="https://github.com/Tiara-Diba-Siregar/webgis-pancoranmas/"
-              className="nav-link"
-            >
-              Features
-            </a>
+          <li
+            className="nav-item"
+            onClick={() => {
+              handleScrollToSection("features");
+            }}
+          >
+            Features
           </li>
-          <li className="nav-item">
-            <a
-              href="https://github.com/Tiara-Diba-Siregar/webgis-pancoranmas/"
-              className="nav-link"
-            >
-              About
-            </a>
+          <li
+            className="nav-item"
+            onClick={() => {
+              handleScrollToSection("about");
+            }}
+          >
+            About
           </li>
-          <li className="nav-item">
-            <a
-              href="https://github.com/Tiara-Diba-Siregar/webgis-pancoranmas/"
-              className="nav-link"
-            >
-              Teams
-            </a>
+          <li
+            className="nav-item"
+            onClick={() => {
+              handleScrollToSection("footer");
+            }}
+          >
+            Teams
           </li>
         </ul>
         <div onClick={navToggle} className="nav-toggler">

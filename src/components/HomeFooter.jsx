@@ -3,7 +3,7 @@ import "./../style/HomePage.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer id="footer" className="footer">
       <div className="footer-container">
         <div className="footer-title">
           <h1>CONTRIBUTORS</h1>

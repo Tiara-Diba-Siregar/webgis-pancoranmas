@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <React.Fragment>
       <section>
-        <div className="hero-centered">
+        <div id="hero" className="hero-centered">
           <div className="text-hero-container" style={{ textAlign: "center" }}>
             <h3
               className="text-hero"

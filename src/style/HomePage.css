@@ -49,28 +49,51 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 30px;
+  cursor: pointer;
+  margin-left: 0;
+  margin-right: 250px;
+}
+.brand:hover {
+  color: blue;
 }
 .home-navbar,
 .home-navbar::after,
 .home-navbar::before {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
   margin: 0;
   box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 8vh;
+  height: 10vh;
   background: white;
+  padding: 0 20px;
+  box-shadow: 0 4px 4px rgba(65, 64, 64, 0.1);
 }
 
 .nav-item {
   list-style: none;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  color: blue;
 }
 
 .nav-link {
   text-decoration: none;
   color: black;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
 }
 
+.nav-link:hover {
+  color: gray;
+}
 .nav-menu {
   display: flex;
   align-items: center;
@@ -87,7 +110,6 @@
 }
 
 .nav-toggler {
-  cursor: pointer;
   display: none;
 }
 
@@ -97,16 +119,25 @@
   }
   .nav-menu {
     position: fixed;
-    top: 7vh;
-    right: 0;
-    width: 50%;
-    height: 93vh;
+    gap: 0.5rem;
+    top: 6vh;
+    right: 3vh;
+    width: 20%;
+    height: 50vh;
     background: white;
     flex-direction: column;
     transform: translateX(100%);
-    transition: 0.5s ease-in;
+    padding: 0 20px;
+    visibility: hidden; /* Initially hide the container */
+    opacity: 0; /* Initially set opacity to 0 */
+  }
+  .nav-menu.active {
+    transform: translateX(0);
+    visibility: visible; /* Show the container */
+    opacity: 1; /* Set opacity to 1 */
   }
 }
+
 /* Navbar Actice Class*/
 .nav-active {
   transform: translateX(0);
@@ -115,11 +146,13 @@
 /* Features.css*/
 .features {
   text-align: center;
-  margin-top: 20px; /* Adjust as needed */
-  height: 100vh;
+  margin-top: 10px; /* Adjust as needed */
+  padding: 20px 0; /* Tambahkan padding agar content tidak menempel pada atas */
+  min-height: 100vh;
 }
 
 .features-container {
+  margin-top: 35px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -178,7 +211,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 0;
+  padding: 0 0;
   background-color: #f7f7f8;
   height: 100vh;
 }
@@ -187,6 +220,8 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  max-width: 1200px; /* Sesuaikan dengan lebar maksimal yang diinginkan */
+  margin: 0 auto; /* Menengahkan container pada layar yang lebih lebar */
 }
 
 .about-image {
@@ -203,10 +238,33 @@
   padding: 0 50px;
 }
 
+@media only screen and (max-width: 768px) {
+  .about-row {
+    flex-direction: column; /* Mengubah arah tata letak menjadi kolom */
+    text-align: center; /* Pusatkan teks pada layar kecil */
+    margin-top: 20px; /* Sesuaikan margin atas */
+    margin-bottom: 20px; /* Sesuaikan margin bawah */
+  }
+
+  .about-image {
+    width: 100%; /* Gunakan lebar penuh pada layar kecil */
+    height: auto; /* Atur tinggi agar sesuai dengan lebar */
+    margin-left: 0;
+    margin-bottom: 20px; /* Berikan sedikit ruang di bawah gambar */
+    margin-top: 0;
+  }
+
+  .about-information {
+    padding: 0 20px; /* Sesuaikan padding pada layar kecil */
+    margin-bottom: 20px;
+  }
+}
+
 /* Footer.css */
 .footer-container {
   text-align: center;
   background-color: rgb(255, 255, 255);
+  margin-top: 50px;
 }
 
 .footer-title {
@@ -215,6 +273,7 @@
 
 .footer-contributors {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 30px;
 }
@@ -246,4 +305,5 @@
   padding: 10px;
   text-align: center;
   margin: 0;
+  margin-top: 30px;
 }
