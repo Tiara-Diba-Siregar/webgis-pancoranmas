@@ -46,7 +46,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Icon className="footer-icon" icon="mdi:youtube" />
+              <Icon className="footer-icon" icon="mingcute:youtube-fill" />
             </a>
           </p>
         </div>
