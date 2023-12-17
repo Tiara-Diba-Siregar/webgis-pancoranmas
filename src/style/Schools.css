@@ -47,6 +47,7 @@
   border-collapse: collapse;
   margin-top: 16px; /* Sesuaikan margin sesuai kebutuhan */
   font-size: 16px;
+  box-shadow: 0 4px 8px rgba(138, 137, 137, 0.1);
 }
 
 .schools-table-result th,
@@ -142,12 +143,14 @@
 }
 
 .paginationButton a {
-  padding: 10px;
-  margin: 8px;
+  padding: 8px;
+  margin: 5px;
   border-radius: 7px;
   border: 1px solid #2b2eff;
   color: #2b2eff;
   cursor: pointer;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(105, 98, 98, 0.1);
 }
 
 .paginationButton a:hover {
