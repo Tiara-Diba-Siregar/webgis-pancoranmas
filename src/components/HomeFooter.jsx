@@ -40,13 +40,44 @@ const Footer = () => {
               <Icon className="footer-icon" icon="mdi:github" />
             </a>
           </p>
+
+          <p>
+            <a
+              href="https://docs.google.com/document/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon
+                className="footer-icon"
+                style={{ color: "blue" }}
+                icon="simple-icons:googledocs"
+              />
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://docs.google.com/presentation/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon
+                className="footer-icon"
+                style={{ color: "orange" }}
+                icon="simple-icons:googleslides"
+              />
+            </a>
+          </p>
           <p>
             <a
               href="https://youtube.com/shorts/566zPZcmmGY?si=R1krp3vU6IHYq9oa"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Icon className="footer-icon" icon="mingcute:youtube-fill" />
+              <Icon
+                className="footer-icon"
+                style={{ color: "red" }}
+                icon="mingcute:youtube-fill"
+              />
             </a>
           </p>
         </div>

@@ -329,10 +329,6 @@
   align-items: center;
 }
 
-.footer-documentation a:hover {
-  color: #007bff; /* Ganti warna saat hover sesuai kebutuhan Anda */
-}
-
 .footer-documentation .footer-icon {
   font-size: 24px; /* Sesuaikan ukuran ikon sesuai kebutuhan Anda */
   margin-bottom: 5px; /* Sesuaikan margin antara ikon dan teks */
