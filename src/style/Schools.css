@@ -1,34 +1,65 @@
 /* YourComponent.css */
 
-.table {
+.schools-table {
   width: 100%;
   margin-top: 20px;
-}
-
-.container {
-  max-width: 90%;
-  margin: 0 auto;
-}
-
-.header {
-  text-align: center;
-  margin-top: 40px;
-}
-
-.input-group {
   margin-bottom: 20px;
 }
 
-.form-control {
-  width: 100%;
+.schools-container {
+  max-width: 90%;
+  margin: auto;
 }
 
-.table th,
-.table td {
-  padding: 8px;
+.schools-header {
   text-align: center;
+  margin-top: 10px;
 }
 
-.table th {
-  background-color: #f2f2f2;
+.schools-input-group {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.schools-search-icon {
+  color: royalblue;
+  font-size: 20px;
+  margin-right: 10px; /* Sesuaikan jarak dari kanan */
+  margin-left: 10px;
+  position: absolute;
+}
+.schools-form-control {
+  width: 100%;
+  border-radius: 5px;
+  height: 2.5rem;
+  box-shadow: 0px 0px 4px #ddd;
+  border: none;
+  font-size: 14px;
+  padding-left: 35px; /* Sesuaikan jarak dari kiri */
+}
+
+.schools-table-result {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Sesuaikan margin sesuai kebutuhan */
+}
+
+.schools-table-result th,
+.schools-table-result td {
+  border: 0.5px solid#e2e8fa; /* Atur garis tepi untuk sel tabel */
+  padding: 5px; /* Sesuaikan ruang padding sesuai kebutuhan */
+  text-align: left; /* Sesuaikan posisi teks sesuai kebutuhan */
+}
+
+.schools-table-result th {
+  background-color: #f2f2f2; /* Atur warna latar belakang header */
+}
+
+.schools-table-result tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Atur warna latar belakang setiap baris genap */
+}
+
+.schools-table-result tbody tr:hover {
+  background-color: #f0f0f0; /* Atur warna latar belakang saat hover pada baris */
 }
