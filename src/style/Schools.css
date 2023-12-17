@@ -73,7 +73,6 @@
   text-align: center;
 }
 
-.schools-table-result th:nth-child(2),
 .schools-table-result td:nth-child(2) {
   width: 20%;
   text-align: justify;
@@ -90,7 +89,6 @@
   text-align: center;
 }
 
-.schools-table-result th:nth-child(5),
 .schools-table-result td:nth-child(5) {
   width: 28%;
   text-align: justify;
@@ -123,5 +121,10 @@
 .schools-table-result th:nth-child(10),
 .schools-table-result td:nth-child(10) {
   width: 6%;
+  text-align: center;
+}
+
+.schools-table-result th:nth-child(2),
+.schools-table-result th:nth-child(5) {
   text-align: center;
 }
