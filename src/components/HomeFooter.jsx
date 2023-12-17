@@ -1,5 +1,6 @@
 import React from "react";
 import "./../style/HomePage.css";
+import { Icon } from "@iconify/react";
 
 const Footer = () => {
   return (
@@ -28,8 +29,30 @@ const Footer = () => {
             <p>11200930000028</p>
           </div>
         </div>
+        <div className="footer-documentation">
+          <p>Check Our Documentation:</p>
+          <p>
+            <a
+              href="https://github.com/Tiara-Diba-Siregar/webgis-pancoranmas"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon className="footer-icon" icon="mdi:github" />
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://youtube.com/shorts/566zPZcmmGY?si=R1krp3vU6IHYq9oa"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon className="footer-icon" icon="mdi:youtube" />
+            </a>
+          </p>
+        </div>
+
         <p className="footer-schoolinfo">
-          © 2023 SchoolInfo. All rights reserved.
+          © 2023 SchoolInfo. Sistem Informasi 7A. All rights reserved.
         </p>
       </div>
     </footer>

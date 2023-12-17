@@ -261,6 +261,7 @@
 }
 
 /* Footer.css */
+
 .footer-container {
   text-align: center;
   background-color: rgb(255, 255, 255);
@@ -268,7 +269,7 @@
 }
 
 .footer-title {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .footer-contributors {
@@ -305,5 +306,34 @@
   padding: 10px;
   text-align: center;
   margin: 0;
-  margin-top: 30px;
+  margin-top: 10px;
+}
+
+.footer-documentation {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.footer-documentation p {
+  margin: 0 5px; /* Sesuaikan margin sesuai kebutuhan Anda */
+}
+
+.footer-documentation a {
+  color: black; /* Ganti warna teks sesuai kebutuhan Anda */
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-documentation a:hover {
+  color: #007bff; /* Ganti warna saat hover sesuai kebutuhan Anda */
+}
+
+.footer-documentation .footer-icon {
+  font-size: 24px; /* Sesuaikan ukuran ikon sesuai kebutuhan Anda */
+  margin-bottom: 5px; /* Sesuaikan margin antara ikon dan teks */
 }
