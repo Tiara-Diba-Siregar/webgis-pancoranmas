@@ -37,7 +37,11 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Icon className="footer-icon" icon="mdi:github" />
+              <Icon
+                className="footer-icon"
+                style={{ color: "black" }}
+                icon="bi:github"
+              />
             </a>
           </p>
 
@@ -76,7 +80,7 @@ const Footer = () => {
               <Icon
                 className="footer-icon"
                 style={{ color: "red" }}
-                icon="mingcute:youtube-fill"
+                icon="grommet-icons:youtube"
               />
             </a>
           </p>
