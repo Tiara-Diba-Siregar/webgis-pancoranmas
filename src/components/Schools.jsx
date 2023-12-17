@@ -15,7 +15,7 @@ const Schools = () => {
 
       <div className="schools-table">
         <div className="schools-container">
-          <h1 className="schools-header">Sekolah Pancoran Mas</h1>
+          <h1 className="schools-header">Sekolah Dasar di Pancoran Mas</h1>
           <form>
             <div className="schools-input-group">
               <Icon
@@ -26,7 +26,7 @@ const Schools = () => {
               <input
                 type="text"
                 className="schools-form-control"
-                placeholder="Cari Sekolah di Pancoran Mas..."
+                placeholder="Cari Sekolah..."
                 onChange={(e) => setSearch(e.target.value)}
               />
             </div>
@@ -43,6 +43,8 @@ const Schools = () => {
                 <th>Kelurahan</th>
                 <th>R. Kelas</th>
                 <th>Rombel</th>
+                <th>Perpus</th>
+                <th>Lab</th>
               </tr>
             </thead>
             <tbody>
@@ -68,6 +70,8 @@ const Schools = () => {
                     <td>{item.Kelurahan}</td>
                     <td>{item.Kelas}</td>
                     <td>{item.Rombel}</td>
+                    <td>{item.Perpus}</td>
+                    <td>{item.Lab}</td>
                   </tr>
                 ))}
 

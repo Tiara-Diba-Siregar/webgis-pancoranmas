@@ -14,6 +14,8 @@
 .schools-header {
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .schools-input-group {
@@ -42,7 +44,7 @@
 .schools-table-result {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px; /* Sesuaikan margin sesuai kebutuhan */
+  margin-top: 16px; /* Sesuaikan margin sesuai kebutuhan */
 }
 
 .schools-table-result th,
@@ -62,4 +64,64 @@
 
 .schools-table-result tbody tr:hover {
   background-color: #f0f0f0; /* Atur warna latar belakang saat hover pada baris */
+}
+
+/* Atur lebar dan text-align untuk setiap kolom */
+.schools-table-result th:nth-child(1),
+.schools-table-result td:nth-child(1) {
+  width: 3%;
+  text-align: center;
+}
+
+.schools-table-result th:nth-child(2),
+.schools-table-result td:nth-child(2) {
+  width: 20%;
+  text-align: justify;
+}
+
+.schools-table-result th:nth-child(3),
+.schools-table-result td:nth-child(3) {
+  width: 8%;
+  text-align: center;
+}
+.schools-table-result th:nth-child(4),
+.schools-table-result td:nth-child(4) {
+  width: 7%;
+  text-align: center;
+}
+
+.schools-table-result th:nth-child(5),
+.schools-table-result td:nth-child(5) {
+  width: 28%;
+  text-align: justify;
+}
+
+.schools-table-result th:nth-child(6),
+.schools-table-result td:nth-child(6) {
+  width: 10%;
+  text-align: center;
+}
+
+.schools-table-result th:nth-child(7),
+.schools-table-result td:nth-child(7) {
+  width: 6%;
+  text-align: center;
+}
+
+.schools-table-result th:nth-child(8),
+.schools-table-result td:nth-child(8) {
+  width: 6%;
+  text-align: center;
+}
+
+.schools-table-result th:nth-child(9),
+.schools-table-result td:nth-child(9) {
+  width: 6%;
+  text-align: center;
+}
+
+.schools-table-result th:nth-child(10),
+.schools-table-result td:nth-child(10) {
+  width: 6%;
+  text-align: center;
 }

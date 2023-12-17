@@ -229,6 +229,7 @@
   width: 200px;
   height: 200px;
   margin-bottom: 0;
+  box-shadow: 0 4px 10px rgba(139, 139, 139, 0.5);
 }
 
 .footer-contributor h3 {
@@ -244,6 +245,5 @@
   color: #fff;
   padding: 10px;
   text-align: center;
-
   margin: 0;
 }
