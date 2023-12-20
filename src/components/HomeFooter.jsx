@@ -60,7 +60,7 @@ const Footer = () => {
           </p>
           <p>
             <a
-              href="https://docs.google.com/presentation/"
+              href="https://www.canva.com/design/DAF3GggNkrs/2-2WPyUyLU_ae14TxiHPiQ/view?utm_content=DAF3GggNkrs&utm_campaign=designshare&utm_medium=link&utm_source=editor"
               target="_blank"
               rel="noopener noreferrer"
             >
