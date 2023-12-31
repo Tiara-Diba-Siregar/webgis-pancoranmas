@@ -47,7 +47,7 @@ const Footer = () => {
 
           <p>
             <a
-              href="https://heyzine.com/flip-book/110b60aa26.html#page/1"
+              href="https://heyzine.com/flip-book/4330bc1c6a.html"
               target="_blank"
               rel="noopener noreferrer"
             >
