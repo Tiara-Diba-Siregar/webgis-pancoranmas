@@ -16,7 +16,7 @@
   margin-bottom: 20px;
   text-align: center; /* Center the buttons */
 }
-.hero-button {
+.hero-button-schools {
   padding: 7px 14px;
   font-size: 16px;
   color: #fff;
@@ -29,7 +29,25 @@
   margin-right: 10px;
 }
 
-.hero-button:hover {
+.hero-button-schools:hover {
+  background: white;
+  color: rgb(43, 80, 243);
+}
+
+.hero-button-map {
+  padding: 7px 14px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 2px solid rgb(43, 80, 243);
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: rgb(43, 80, 243);
+  margin-right: 10px;
+}
+
+.hero-button-map:hover {
   background: white;
   color: rgb(43, 80, 243);
 }
