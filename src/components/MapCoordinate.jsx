@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { useMapEvents } from "react-leaflet";
 
 function round(number, precision = 0) {
@@ -21,12 +21,18 @@ function formatLongitude(longitude) {
 function MouseCoordinates() {
   const [mousePoint, setMousePoint] = React.useState(null);
 
-  const formattedCoordinates =
-    mousePoint === null
-      ? ""
-      : `${formatLatitude(mousePoint.lat)}, ${formatLongitude(mousePoint.lng)}`;
+  const formattedCoordinates = useMemo(() => {
+    return mousePoint === null ? (
+      ""
+    ) : (
+      <div>
+        <div>Latitude: {formatLatitude(mousePoint.lat)}</div>
+        <div>Longitude: {formatLongitude(mousePoint.lng)}</div>
+      </div>
+    );
+  }, [mousePoint]);
 
-  React.useEffect(
+  React.useEffect(() => {
     function copyToClipboard() {
       function handleCtrlCKeydown(event) {
         if (
@@ -44,9 +50,10 @@ function MouseCoordinates() {
       return function cleanup() {
         document.removeEventListener("keydown", handleCtrlCKeydown);
       };
-    },
-    [formattedCoordinates]
-  );
+    }
+
+    copyToClipboard();
+  }, [formattedCoordinates]);
 
   useMapEvents({
     mousemove(event) {
@@ -60,7 +67,17 @@ function MouseCoordinates() {
   if (formattedCoordinates.length === 0) return null;
 
   return (
-    <div className="leaflet-control-attribution leaflet-control">
+    <div
+      className="leaflet-control-attribution leaflet-control mouse-coordinates"
+      style={{
+        backgroundColor: "rgba(255, 255, 255, 0.8)",
+        padding: "5px",
+        borderRadius: "5px",
+        boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
+        left: "18vh",
+        bottom: "5px",
+      }}
+    >
       {formattedCoordinates}
     </div>
   );

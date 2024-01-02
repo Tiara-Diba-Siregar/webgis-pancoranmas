@@ -16,6 +16,8 @@ const GREECE_BOUNDS = [
   [-6.46202, 106.834366],
 ];
 
+const WIND_ROSE_URL = process.env.PUBLIC_URL + "/img/wind.png";
+
 class MyMap extends Component {
   render() {
     return (
@@ -44,10 +46,22 @@ class MyMap extends Component {
           <MiniMap position="bottomright" zoom={9} />
           <MapSearch position="bottomright" zoom={12} />
           <ScaleControl position="bottomleft" imperial={true} />
-          <div className="leaflet-bottom leaflet-right">
+          <div className="leaflet-bottom leaflet-left">
             <MouseCoordinates />
           </div>
           <ZoomControlWithReset bounds={GREECE_BOUNDS} />
+          <img
+            src={WIND_ROSE_URL}
+            alt="Wind Rose"
+            style={{
+              position: "absolute",
+              zIndex: 400,
+              left: "3vh",
+              bottom: "12vh",
+              width: "200px",
+              height: "200px",
+            }}
+          />
         </MapContainer>
       </div>
     );
