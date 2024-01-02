@@ -55,9 +55,9 @@ function MiniMap({ position, zoom }) {
   return (
     <div
       className={POSITION_CLASSES[position]}
-      style={{ position: "absolute", height: "145px" }}
+      style={{ position: "absolute", height: "130px" }}
     >
-      <div className="leaflet-control leaflet-bar" style={{ zIndex: 999 }}>
+      <div className="leaflet-control leaflet-bar" style={{ zIndex: 500 }}>
         <MapContainer
           style={{ height: 120, width: 200 }}
           center={parentMap.getCenter()}
