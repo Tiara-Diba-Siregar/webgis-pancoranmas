@@ -32,12 +32,14 @@ class MyMap extends Component {
             textAlign: "center",
             fontFamily: "Open Sans, sans-serif",
             fontWeight: "Normal",
+            fontSize: "32px",
+            margin: "12px",
           }}
         >
           GEOGRAPHICAL MAP
         </h1>
         <MapContainer
-          style={{ height: "85vh" }}
+          style={{ height: "88vh" }}
           zoom={12}
           center={[-6.38976, 106.821498]}
           zoomControl={false}
