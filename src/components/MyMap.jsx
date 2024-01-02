@@ -39,7 +39,7 @@ class MyMap extends Component {
           GEOGRAPHICAL MAP
         </h1>
         <MapContainer
-          style={{ height: "88vh" }}
+          style={{ height: "88.8vh" }}
           zoom={12}
           center={[-6.38976, 106.821498]}
           zoomControl={false}
@@ -59,7 +59,7 @@ class MyMap extends Component {
               position: "absolute",
               zIndex: 400,
               left: "3vh",
-              bottom: "12vh",
+              bottom: "8vh",
               width: "200px",
               height: "200px",
             }}

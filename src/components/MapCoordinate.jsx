@@ -26,8 +26,10 @@ function MouseCoordinates() {
       ""
     ) : (
       <div>
-        <div>Latitude: {formatLatitude(mousePoint.lat)}</div>
-        <div>Longitude: {formatLongitude(mousePoint.lng)}</div>
+        <div>
+          Latitude: {formatLatitude(mousePoint.lat)} | Longitude:{" "}
+          {formatLongitude(mousePoint.lng)}
+        </div>
       </div>
     );
   }, [mousePoint]);
@@ -74,7 +76,7 @@ function MouseCoordinates() {
         padding: "5px",
         borderRadius: "5px",
         boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
-        left: "18vh",
+        left: "90vh",
         bottom: "5px",
       }}
     >

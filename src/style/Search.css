@@ -117,7 +117,7 @@ input:focus {
   font-size: 14px;
   overflow-y: auto; /* Add vertical scrolling */
   max-height: calc(
-    95vh - 40px
+    98.5vh - 40px
   ); /* Set maximum height to the height of the viewport minus padding */
 }
 
