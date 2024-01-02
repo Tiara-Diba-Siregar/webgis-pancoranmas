@@ -24,14 +24,13 @@ const Hero = () => {
           </div>
           <div className="hero-button-container">
             <button
-              className="hero-button"
-              style={{ backgroundColor: "rgb(43, 80, 243)", color: "white" }}
+              className="hero-button-map"
               onClick={() => navigate("/map")}
             >
               Explore Map
             </button>
             <button
-              className="hero-button"
+              className="hero-button-schools"
               onClick={() => navigate("/schools")}
             >
               Find Schools
