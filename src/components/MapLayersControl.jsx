@@ -67,21 +67,51 @@ export default function MapLayerControl() {
     return <div>{stars}</div>;
   };
 
-  function getCustomColor(id) {
-    if (id === 1) {
-      return "blue";
-    } else if (id === 2) {
-      return "red";
-    } else if (id === 3) {
-      return "yellow";
-    } else if (id === 4) {
-      return "purple";
-    } else if (id === 5) {
-      return "green";
-    } else if (id === 6) {
-      return "dark grey";
+  function getCustomColor(id, tipe) {
+    if (tipe === "Kecamatan Pancoran Mas") {
+      if (id === 1) {
+        return "blue";
+      } else if (id === 2) {
+        return "red";
+      } else if (id === 3) {
+        return "yellow";
+      } else if (id === 4) {
+        return "purple";
+      } else if (id === 5) {
+        return "green";
+      } else if (id === 6) {
+        return "dark grey";
+      } else {
+        return "black";
+      }
+    } else if (tipe === "Kota Depok") {
+      if (id === 1) {
+        return "#3559E0";
+      } else if (id === 2) {
+        return "#3559E0";
+      } else if (id === 3) {
+        return "#3559E0";
+      } else if (id === 4) {
+        return "#3559E0";
+      } else if (id === 5) {
+        return "#3559E0";
+      } else if (id === 6) {
+        return "#3559E0";
+      } else if (id === 7) {
+        return "#3559E0";
+      } else if (id === 8) {
+        return "#3559E0";
+      } else if (id === 9) {
+        return "#3559E0";
+      } else if (id === 10) {
+        return "#3559E0";
+      } else if (id === 11) {
+        return "#3559E0";
+      } else {
+        return "red";
+      }
     } else {
-      return "black";
+      return "black"; // Warna default jika tipe tidak dikenali
     }
   }
 
@@ -113,12 +143,14 @@ export default function MapLayerControl() {
         <GeoJSON
           data={kecamatanData.features}
           onEachFeature={(feature, layer) => {
+            const tipe = "Kota Depok"; // Atur tipe kecamatan sesuai dengan kebutuhan
+            const customColor = getCustomColor(feature.properties.id, tipe);
             layer.bindPopup(`<strong>${feature.properties.kecamatan}</strong>`);
             layer.setStyle({
-              color: "#35A29F", // warna border
+              color: "#D8D9DA", // warna border
               weight: 2, // ketebalan border
-              fill: "#B4CDE6", // warna fill
-              fillOpacity: 0.2, // transparansi fill
+              fillColor: customColor, // warna fill
+              fillOpacity: 0.25, // transparansi fill
             });
           }}
         />
@@ -128,13 +160,13 @@ export default function MapLayerControl() {
         <GeoJSON
           data={kelurahanData.features}
           onEachFeature={(feature, layer) => {
-            const customColor = getCustomColor(feature.properties.id); // Panggil fungsi getCustomColor() untuk mendapatkan warna custom berdasarkan ID
+            const tipe = "Kecamatan Pancoran Mas"; // Atur tipe kecamatan sesuai dengan kebutuhan
+            const customColor = getCustomColor(feature.properties.id, tipe);
             layer.bindPopup(`<strong>${feature.properties.kelurahan}</strong>`);
             layer.setStyle({
               fillColor: customColor,
-              color: "#35A29F", // Warna border
+              color: "#D8D9DA", // Warna border
               weight: 2, // Ketebalan border
-              fillOpacity: 0.2, // transparansi fill
             });
           }}
         />
