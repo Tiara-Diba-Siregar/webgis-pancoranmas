@@ -429,7 +429,7 @@
 .news-row-fill {
   width: 300px; /* Lebar masing-masing elemen, termasuk margin dan padding */
   box-sizing: border-box; /* Memastikan lebar elemen termasuk padding dan border */
-  border: 1px solid #c4cef7; /* Warna dan ketebalan border */
+  border: 1.5px solid #d1d9f8; /* Warna dan ketebalan border */
   border-radius: 8px; /* Radius sudut border untuk membuat tampilan seperti kartu */
   overflow: hidden; /* Mengatasi masalah border-radius pada elemen dengan gambar di dalamnya */
   transition: box-shadow 0.3s ease; /* Animasi ketika hover */
@@ -437,7 +437,7 @@
 }
 
 .news-row-fill:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan ketika hover */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan ketika hover */
 }
 
 .news-image img {
@@ -452,7 +452,7 @@
 .news-row-title h3 {
   margin-top: 8px; /* Menambahkan margin di atas judul */
   margin-bottom: 8px;
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -464,11 +464,11 @@
 }
 
 .news-row-title a:hover {
-  color: #007bff; /* Warna teks saat hover */
+  color: #4ca0fa; /* Warna teks saat hover */
 }
 
 .news-row-title a {
   text-decoration: none; /* Menghapus garis bawah default pada link */
-  color: #333; /* Warna teks normal */
+  color: #383838; /* Warna teks normal */
   transition: color 0.3s ease; /* Animasi warna teks saat hover */
 }
