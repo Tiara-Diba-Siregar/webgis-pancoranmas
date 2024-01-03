@@ -287,8 +287,34 @@
   margin-top: 60px;
 }
 
-.footer-title {
+.footer-title-desc {
   margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-title-teams {
+  margin-top: 4vh;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #333;
+}
+
+.footer-title-teams h1 {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.footer-title-teams h1::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  margin-left: -30px;
+  left: 50%;
 }
 
 .footer-contributors {

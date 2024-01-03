@@ -6,8 +6,10 @@ const Footer = () => {
   return (
     <footer id="footer" className="footer">
       <div className="footer-container">
-        <div className="footer-title">
+        <div className="footer-title-teams">
           <h1>CONTRIBUTORS</h1>
+        </div>
+        <div className="footer-title-desc">
           <p>
             Here are the individuals involved in the creation of SchoolInfo.
           </p>
@@ -87,7 +89,8 @@ const Footer = () => {
         </div>
 
         <p className="footer-schoolinfo">
-          © 2023 SchoolInfo. Sistem Informasi 7A. All rights reserved.
+          © 2023 SchoolInfo. Sistem Informasi 7A. Kelompok 6. All rights
+          reserved.
         </p>
       </div>
     </footer>
