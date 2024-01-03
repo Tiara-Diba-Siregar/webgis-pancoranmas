@@ -68,12 +68,20 @@ export default function MapLayerControl() {
   };
 
   function getCustomColor(id) {
-    if (id === "1") {
-      return "#FF5733";
-    } else if (id === "6") {
-      return "#FF3357";
+    if (id === 1) {
+      return "blue";
+    } else if (id === 2) {
+      return "red";
+    } else if (id === 3) {
+      return "yellow";
+    } else if (id === 4) {
+      return "purple";
+    } else if (id === 5) {
+      return "green";
+    } else if (id === 6) {
+      return "dark grey";
     } else {
-      return "#4C6793";
+      return "black";
     }
   }
 
@@ -120,12 +128,13 @@ export default function MapLayerControl() {
         <GeoJSON
           data={kelurahanData.features}
           onEachFeature={(feature, layer) => {
-            const customColor = getCustomColor(); // Panggil fungsi getCustomColor() untuk mendapatkan warna custom berdasarkan ID
+            const customColor = getCustomColor(feature.properties.id); // Panggil fungsi getCustomColor() untuk mendapatkan warna custom berdasarkan ID
             layer.bindPopup(`<strong>${feature.properties.kelurahan}</strong>`);
             layer.setStyle({
               fillColor: customColor,
               color: "#35A29F", // Warna border
               weight: 2, // Ketebalan border
+              fillOpacity: 0.2, // transparansi fill
             });
           }}
         />
