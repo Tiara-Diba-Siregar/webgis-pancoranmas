@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 import Features from "./HomeFeatures";
 import About from "./HomeAbout";
 import Footer from "./HomeFooter";
+import News from "./HomeNews";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
             <Hero />
             <Features />
             <About />
+            <News />
             <Footer />
           </div>
         </>

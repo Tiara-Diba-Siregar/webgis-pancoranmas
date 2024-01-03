@@ -55,6 +55,14 @@ function Navbar() {
           <li
             className="nav-item"
             onClick={() => {
+              handleScrollToSection("news");
+            }}
+          >
+            News
+          </li>
+          <li
+            className="nav-item"
+            onClick={() => {
               handleScrollToSection("footer");
             }}
           >

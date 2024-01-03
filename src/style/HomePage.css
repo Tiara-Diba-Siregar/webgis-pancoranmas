@@ -352,3 +352,97 @@
   font-size: 24px; /* Sesuaikan ukuran ikon sesuai kebutuhan Anda */
   margin-bottom: 5px; /* Sesuaikan margin antara ikon dan teks */
 }
+
+/* News.css */
+.news {
+  text-align: center;
+  padding: 20px 0; /* Tambahkan padding agar content tidak menempel pada atas */
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.news-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-title h2 {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.news-title h2::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  margin-left: -30px;
+  left: 50%;
+}
+
+.news-title {
+  margin-top: 4vh;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #333;
+}
+
+.news-row {
+  display: flex;
+  justify-content: space-between; /* Menyebar elemen secara horizontal */
+  flex-wrap: wrap; /* Pindah ke baris baru jika tidak muat dalam satu baris */
+  margin: 0 40px;
+}
+
+.news-row-fill {
+  width: 300px; /* Lebar masing-masing elemen, termasuk margin dan padding */
+  box-sizing: border-box; /* Memastikan lebar elemen termasuk padding dan border */
+  border: 1px solid #c4cef7; /* Warna dan ketebalan border */
+  border-radius: 8px; /* Radius sudut border untuk membuat tampilan seperti kartu */
+  overflow: hidden; /* Mengatasi masalah border-radius pada elemen dengan gambar di dalamnya */
+  transition: box-shadow 0.3s ease; /* Animasi ketika hover */
+  margin: 16px 8px;
+}
+
+.news-row-fill:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan ketika hover */
+}
+
+.news-image img {
+  width: 95%; /* Membuat gambar mengisi lebar container */
+  height: auto; /* Menyesuaikan tinggi gambar secara proporsional */
+  border-radius: 8px; /* Mengatur sudut border-radius untuk memberikan efek card */
+  border: 1px solid #ddd; /* Menambahkan border dengan warna abu-abu */
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.news-row-title h3 {
+  margin-top: 8px; /* Menambahkan margin di atas judul */
+  margin-bottom: 8px;
+  font-size: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.news-row-title a {
+  margin-top: 8px; /* Menambahkan margin di atas judul */
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.news-row-title a:hover {
+  color: #007bff; /* Warna teks saat hover */
+}
+
+.news-row-title a {
+  text-decoration: none; /* Menghapus garis bawah default pada link */
+  color: #333; /* Warna teks normal */
+  transition: color 0.3s ease; /* Animasi warna teks saat hover */
+}
