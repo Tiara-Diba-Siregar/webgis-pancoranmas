@@ -279,7 +279,7 @@ export default function MapLayerControl() {
           onEachFeature={(feature, layer) => {
             layer.bindPopup(`<strong>${feature.properties.lokasi}</strong>`);
             layer.setStyle({
-              color: "##1F6945", // warna border
+              color: "#1F6945", // warna border
               weight: 2, // ketebalan border
               fill: "#BCEFD6", // warna fill
               fillOpacity: 0.2, // transparansi fill
