@@ -232,7 +232,7 @@
   padding-bottom: 5vh;
   padding-top: 5vh;
   background-color: #f7f7f8;
-  min-height: 90vh;
+  min-height: 100vh;
 }
 
 .about-row {
@@ -249,6 +249,11 @@
   height: auto; /* Menyesuaikan tinggi secara proporsional */
   margin-left: 30px;
   margin-right: 0;
+}
+
+.about-image img {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(139, 139, 139, 0.5);
 }
 
 .about-information {

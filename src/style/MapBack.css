@@ -9,7 +9,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 16px; /* Sesuaikan posisi atas sesuai kebutuhan */
+  top: 14px; /* Sesuaikan posisi atas sesuai kebutuhan */
   left: 25px; /* Sesuaikan posisi kiri sesuai kebutuhan */
   transition: background-color 0.3s; /* Efek transisi untuk hover */
 }
