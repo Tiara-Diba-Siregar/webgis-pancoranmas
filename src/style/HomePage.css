@@ -423,7 +423,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 40px;
+  margin: 0 30px;
 }
 
 .news-row-fill {
@@ -433,7 +433,7 @@
   border-radius: 8px; /* Radius sudut border untuk membuat tampilan seperti kartu */
   overflow: hidden; /* Mengatasi masalah border-radius pada elemen dengan gambar di dalamnya */
   transition: box-shadow 0.3s ease; /* Animasi ketika hover */
-  margin: 16px 8px;
+  margin: 8px 8px;
 }
 
 .news-row-fill:hover {
