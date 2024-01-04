@@ -8,7 +8,7 @@ export const About = () => {
       <div className="about-container">
         <div className="about-row">
           <div className="about-image">
-            <img src="/img/logo.png" alt="aboutimage" />
+            <img src="/img/images/pancoranmas3.jpg" alt="aboutimage" />
           </div>
           <div className="about-information">
             <div className="about-text">
@@ -67,6 +67,28 @@ export const About = () => {
                         }}
                       />
                       List of schools in Pancoran Mas
+                    </li>
+                    <li>
+                      <Icon
+                        icon="bi:check"
+                        style={{
+                          color: "blue",
+                          marginRight: "10px",
+                          fontSize: "16",
+                        }}
+                      />
+                      Search for Locations Worldwide
+                    </li>
+                    <li>
+                      <Icon
+                        icon="bi:check"
+                        style={{
+                          color: "blue",
+                          marginRight: "10px",
+                          fontSize: "16",
+                        }}
+                      />
+                      Provides the administrative boundaries
                     </li>
                   </ul>
                 </div>
