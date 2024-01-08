@@ -27,19 +27,9 @@ class MyMap extends Component {
           <div className="search-bar-container" />
           <Search />
         </div>
-        <h1
-          style={{
-            textAlign: "center",
-            fontFamily: "Open Sans, sans-serif",
-            fontWeight: "Normal",
-            fontSize: "32px",
-            margin: "12px",
-          }}
-        >
-          GEOGRAPHICAL MAP
-        </h1>
+
         <MapContainer
-          style={{ height: "88.8vh" }}
+          style={{ height: "100vh" }}
           zoom={12}
           center={[-6.38976, 106.821498]}
           zoomControl={false}
