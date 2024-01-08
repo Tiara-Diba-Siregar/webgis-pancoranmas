@@ -21,10 +21,12 @@ function Navbar() {
       <div className="home-navbar">
         <div
           className="brand"
+          style={{ margin: 0 }}
           onClick={() => {
             handleScrollToSection("hero");
           }}
         >
+          <img src="/img/logo.png" alt="icon" />
           SCHOOLINFO
         </div>
         <ul className={isActive ? "nav-menu active" : "nav-menu"}>

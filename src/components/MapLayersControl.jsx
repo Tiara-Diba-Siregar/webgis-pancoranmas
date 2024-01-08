@@ -96,7 +96,7 @@ export default function MapLayerControl() {
       } else if (id === 5) {
         return "#3559E0";
       } else if (id === 6) {
-        return "purple";
+        return "light green";
       } else if (id === 7) {
         return "#3559E0";
       } else if (id === 8) {

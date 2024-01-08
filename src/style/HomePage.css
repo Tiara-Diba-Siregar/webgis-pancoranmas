@@ -68,9 +68,18 @@
   font-weight: bold;
   font-size: 30px;
   cursor: pointer;
-  margin-left: 0;
-  margin-right: 250px;
+  margin: 0 auto;
+  display: flex; /* Menggunakan flexbox untuk tata letak */
+  align-items: center; /* Menyatukan vertikal ke tengah */
 }
+
+.brand img {
+  /* Menentukan ukuran dan margin untuk penempatan logo */
+  width: 50px; /* Sesuaikan ukuran sesuai kebutuhan */
+  height: auto; /* Untuk mempertahankan aspek rasio gambar */
+  margin-right: 10px; /* Sesuaikan margin sesuai kebutuhan */
+}
+
 .brand:hover {
   color: blue;
 }
@@ -116,7 +125,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 3rem;
+  gap: 2rem;
   font-size: 18px;
 }
 
@@ -428,7 +437,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 30px;
+  margin: 0 25px;
 }
 
 .news-row-fill {
