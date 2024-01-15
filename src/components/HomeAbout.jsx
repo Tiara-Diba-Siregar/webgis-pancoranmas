@@ -13,7 +13,7 @@ export const About = () => {
           <div className="about-information">
             <div className="about-text">
               <h2>About SCHOOLINFO</h2>
-              <p>
+              <p style={{ textAlign: "justify" }}>
                 Welcome to SCHOOLINFO! Your trusted source for up-to-date
                 information on elementary schools in Pancoran Mas, Depok. We are
                 committed to providing comprehensive and valuable information

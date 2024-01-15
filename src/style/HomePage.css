@@ -79,7 +79,6 @@
   height: auto; /* Untuk mempertahankan aspek rasio gambar */
   margin-right: 10px; /* Sesuaikan margin sesuai kebutuhan */
 }
-
 .brand:hover {
   color: blue;
 }
@@ -125,7 +124,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 2rem;
+  gap: 3rem;
   font-size: 18px;
 }
 
@@ -277,16 +276,23 @@
     text-align: center; /* Pusatkan teks pada layar kecil */
     margin-top: 20px; /* Sesuaikan margin atas */
     margin-bottom: 20px; /* Sesuaikan margin bawah */
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .about-image {
     width: 100%; /* Gunakan lebar penuh pada layar kecil */
     height: auto; /* Atur tinggi agar sesuai dengan lebar */
-    margin-left: 0;
+    margin-left: auto;
     margin-bottom: 20px; /* Berikan sedikit ruang di bawah gambar */
     margin-top: 0;
   }
 
+  .about-image img {
+    height: auto;
+    width: 100%;
+    padding: auto;
+  }
   .about-information {
     padding: 0 20px; /* Sesuaikan padding pada layar kecil */
     margin-bottom: 20px;
@@ -437,7 +443,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 25px;
+  margin: 0 30px;
 }
 
 .news-row-fill {

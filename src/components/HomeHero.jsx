@@ -14,16 +14,13 @@ const Hero = () => {
             >
               Elementary Schools
             </h3>
-            <p style={{ margin: 0, color: "white", fontSize: "16px" }}>
-              We offer comprehensive details about 20 elementary schools located
-              in various
+            <p style={{ margin: 0, color: "white", fontSize: "18px" }}>
+              We offer comprehensive details such as location, facilities,
+              images, website, coordinate, and contact
             </p>
-            <p style={{ margin: 0, color: "white", fontSize: "16px" }}>
-              neighborhoods in Pancoran Mas, Depok
-            </p>
-            <p style={{ margin: 0, color: "white", fontSize: "16px" }}>
-              We Provide Information about Location, Facilities, Images,
-              Website, Coordinate, and Contact
+            <p style={{ margin: 0, color: "white", fontSize: "18px" }}>
+              about elementary schools located in various neighborhoods in
+              Pancoran Mas, Depok
             </p>
           </div>
           <div className="hero-button-container">
