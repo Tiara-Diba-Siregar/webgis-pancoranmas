@@ -489,3 +489,10 @@
 .news-row-title a:hover {
   color: #4ca0fa;
 }
+
+@media only screen and (max-width: 768px) {
+  .news-row {
+    flex-direction: column; /* Mengubah arah tata letak menjadi kolom */
+    text-align: center; /* Pusatkan teks pada layar kecil */
+  }
+}
