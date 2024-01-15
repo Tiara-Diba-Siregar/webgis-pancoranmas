@@ -23,7 +23,7 @@ import { Icon } from "@iconify/react";
 
 export default function MapLayerControl() {
   const schoolIcon = new L.Icon({
-    iconUrl: process.env.PUBLIC_URL + "/img/schoolicon.png",
+    iconUrl: process.env.PUBLIC_URL + "/img/location (1).png",
     iconSize: [24, 24],
     iconAnchor: [16, 32],
     popupAnchor: [0, -32],
@@ -96,7 +96,7 @@ export default function MapLayerControl() {
       } else if (id === 5) {
         return "#3559E0";
       } else if (id === 6) {
-        return "#373d24";
+        return "light green";
       } else if (id === 7) {
         return "#3559E0";
       } else if (id === 8) {

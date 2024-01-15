@@ -62,7 +62,7 @@ const Features = () => {
             </i>
             <h3 className="features-title">Geographical Map</h3>
             <h3 className="features-text">
-              Geographic maps for finding various locations
+              Geographic maps for finding various locations.
             </h3>
           </div>
         </div>
